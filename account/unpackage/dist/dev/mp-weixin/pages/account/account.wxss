@@ -1,0 +1,194 @@
+.account-total {
+  background: #F3F3F3;
+}
+.account-total .fl {
+  float: left;
+}
+.account-total .fr {
+  float: right;
+}
+.account-total .clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.account-total .account {
+  background: #F3F3F3;
+}
+.account-total .account .style {
+  width: 156rpx;
+  height: 36rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(31, 31, 31, 0.4);
+  line-height: 36rpx;
+  margin-left: 32rpx;
+  padding: 18rpx 0;
+}
+.account-total .transfer-style {
+  width: 750rpx;
+  height: 112rpx;
+  background: #FFFFFF;
+}
+.account-total .transfer-style .style-left {
+  float: left;
+  width: 136rpx;
+  height: 48rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #1F1F1F;
+  line-height: 48rpx;
+  margin-top: 32rpx;
+  margin-left: 32rpx;
+}
+.account-total .transfer-style .style-right-first {
+  float: left;
+  width: 120rpx;
+  height: 40rpx;
+  background: #F3F3F3;
+  border-radius: 4rpx;
+  margin-left: 272rpx;
+  margin-top: 36rpx;
+}
+.account-total .transfer-style .style-right-first .private {
+  width: 96rpx;
+  height: 24rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9F9F9F;
+  line-height: 24rpx;
+  margin: 8rpx 12rpx;
+}
+.account-total .transfer-style .style-right-second {
+  float: right;
+  width: 146rpx;
+  height: 40rpx;
+  background: #087CB2;
+  border-radius: 4rpx;
+  margin-right: 20rpx;
+  margin-top: 36rpx;
+}
+.account-total .transfer-style .style-right-second .public {
+  width: 96rpx;
+  height: 24rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 24rpx;
+  margin-left: 12rpx;
+  margin-top: 8rpx;
+}
+.account-total .get-account,
+.account-total .send-account {
+  padding: 18rpx 0;
+}
+.account-total .get-account .get-title,
+.account-total .send-account .get-title,
+.account-total .get-account .send-account-title,
+.account-total .send-account .send-account-title {
+  margin-left: 32rpx;
+  width: 104rpx;
+  height: 36rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(31, 31, 31, 0.4);
+  line-height: 36rpx;
+}
+.account-total .open-account {
+  width: 750rpx;
+  height: 112rpx;
+  background: #FFFFFF;
+}
+.account-total .open-account .open-account-left {
+  width: 136rpx;
+  float: left;
+  height: 48rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #1F1F1F;
+  line-height: 48rpx;
+  margin-top: 32rpx;
+  margin-left: 32rpx;
+}
+.account-total .open-account .bank-style {
+  float: left;
+  height: 28rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #1F1F1F;
+  line-height: 28rpx;
+  margin-top: 42rpx;
+  margin-left: 16rpx;
+}
+.account-total .open-account .content-copy {
+  float: right;
+  width: 56rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3296FA;
+  line-height: 112rpx;
+  margin-right: 32rpx;
+}
+.account-total .line {
+  width: 718rpx;
+  height: 2rpx;
+  background: rgba(31, 31, 31, 0.09);
+  margin-left: 32rpx;
+}
+.account-total .add-account {
+  height: 374rpx;
+  background: #FFFFFF;
+}
+.account-total .add-account .add {
+  width: 44rpx;
+  height: 44rpx;
+  margin-top: 134rpx;
+  margin-left: 352rpx;
+}
+.account-total .add-account .add-title {
+  width: 192rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #087CB2;
+  line-height: 44rpx;
+  margin-top: 28rpx;
+  margin-left: 280rpx;
+}
+.account-total .submit {
+  width: 690rpx;
+  height: 72rpx;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3AC0FF), to(rgba(58, 192, 255, 0))) #087CB2;
+  background: -webkit-linear-gradient(top, #3AC0FF 0%, rgba(58, 192, 255, 0) 100%) #087CB2;
+  background: linear-gradient(180deg, #3AC0FF 0%, rgba(58, 192, 255, 0) 100%) #087CB2;
+  border-radius: 16rpx;
+  margin-left: 30rpx;
+  margin-top: 262rpx;
+}
+.account-total .submit .submit-title {
+  float: left;
+  width: 64rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 44rpx;
+  margin-top: 14rpx;
+  margin-left: 314rpx;
+}
+
